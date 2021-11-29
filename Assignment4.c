@@ -24,7 +24,7 @@ return val[r];
 }
 
 int main(){
-  int a[]={1,4,8,9,10,12,12,17};
+  int a[]={1,4,6,8,10,10,12};
   int s=sizeof(a)/sizeof(a[0]);
   printf("Max value acquired: %d\n", cut_rod(a,s));
   getchar();
